@@ -27,7 +27,7 @@ Built with **React**, **Node.js**, **Express**, and **MySQL**, this project simu
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 **Frontend**
 - React (Hooks)
 - Axios
@@ -42,24 +42,32 @@ Built with **React**, **Node.js**, **Express**, and **MySQL**, this project simu
 
 ---
 
-## ⚙ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/PatientAppointmentSystem.git
 cd PatientAppointmentSystem
+```
 
-### 1. Clone the repository
+### 2. Setup the Backend
+```bash
 cd backend
 npm install
+```
+
 Create a .env file:
+```bash
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=mychn_db
 DB_PORT=3306
 PORT=5000
+```
+
 Make sure MySQL is running and create the database:
+```bash
 CREATE DATABASE IF NOT EXISTS mychn_db;
 
 USE mychn_db;
@@ -71,14 +79,20 @@ CREATE TABLE IF NOT EXISTS appointments (
   time VARCHAR(10) NOT NULL,
   reason TEXT
 );
-Run the backend:
+```
 
+Run the backend:
+```bash
 npm start
+```
 
 ### 3. Setup the Frontend
+```bash
 cd ../frontend
 npm install
 npm start
+```
+
 Frontend will run on http://localhost:3000 and connect to backend API.
 
 ## Usage
@@ -93,15 +107,19 @@ Frontend will run on http://localhost:3000 and connect to backend API.
 3. Click **Add** — the new appointment will appear instantly in the table below.
 
 ---
+## 📸 Demo
+![Patient Appointment System Demo](frontend/public/demo.gif)
 
+---
 ## Screenshots
-*(Add screenshots here once available)*
+<img width="3817" height="878" alt="image" src="https://github.com/user-attachments/assets/c6de06f6-d709-4313-be53-05e8a5bae262" />
+<img width="3829" height="1067" alt="image" src="https://github.com/user-attachments/assets/358c2f2e-5ee0-4c18-b90c-7442fc84b842" />
 
 ---
 
 ## Future Enhancements
 
-To make this system more robust and valuable for **MyCHN** or a real clinic environment:
+To make this system more robust and valuable for real clinic environment:
 
 ### 1. Authentication & Role-Based Access
 - Secure login for staff and administrators.
