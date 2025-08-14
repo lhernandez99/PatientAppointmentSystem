@@ -107,7 +107,7 @@ Frontend will run on http://localhost:3000 and connect to backend API.
 3. Click **Add** — the new appointment will appear instantly in the table below.
 
 ---
-## 📸 Demo
+## Demo
 ![Patient Appointment System Demo](frontend/public/demo.gif)
 
 ---
