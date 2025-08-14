@@ -108,7 +108,7 @@ Frontend will run on http://localhost:3000 and connect to backend API.
 
 ---
 ## Demo
-![Patient Appointment System Demo](frontend/public/demo.gif)
+<video src="frontend/public/demo.mp4" controls width="700"></video>
 
 ---
 ## Screenshots
