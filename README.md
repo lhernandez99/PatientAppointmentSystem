@@ -108,6 +108,7 @@ Frontend will run on http://localhost:3000 and connect to backend API.
 
 ---
 ## Demo
+[View Demo Video](frontend/public/demo.mp4)
 <video src="frontend/public/demo.mp4" controls width="700"></video>
 
 ---
