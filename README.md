@@ -108,8 +108,12 @@ Frontend will run on http://localhost:3000 and connect to backend API.
 
 ---
 ## Demo
-[View Demo Video](frontend/public/demo.mp4)
-<video src="frontend/public/demo.mp4" controls width="700"></video>
+<p align="center">
+  <a href="https://youtu.be/uMab6Yw_vEs" target="_blank">
+    <img src="https://img.youtube.com/vi/uMab6Yw_vEs/maxresdefault.jpg" alt="Click to watch demo" width="600">
+  </a>
+</p>
+<p align="center"><em>Click the image to watch the demo video</em></p>
 
 ---
 ## Screenshots
