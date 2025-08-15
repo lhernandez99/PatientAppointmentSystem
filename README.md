@@ -12,7 +12,6 @@ Built with **React**, **Node.js**, **Express**, and **MySQL**, this project simu
 4. [Usage](#usage)
 5. [Screenshots](#screenshots)
 6. [Future Enhancements](#future-enhancements)
-7. [License](#license)
 
 ---
 
